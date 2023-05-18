@@ -5,7 +5,7 @@ import InterestRatePrediction from '@/contracts/InterestRatePrediction.json'
 
 const useAppStore = defineStore('app', () => {
 
-    // wallet information
+    // Wallet information
     const address = ref('')
     const balance = ref(0)
 

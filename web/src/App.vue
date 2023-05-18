@@ -119,7 +119,7 @@ const data = reactive({
     bets: 1,
 })
 
-// reveal interest rate
+// Reveal interest rate
 const revealRate = async () => {
     ElMessageBox.prompt('Please input index 0 or 1 or 2', 'Tip', {
         confirmButtonText: 'OK',

@@ -10,7 +10,7 @@ export const timeFormat = (dateTime, fmt = 'yyyy-mm-dd') => {
     if (!dateTime) {
         return ''
     }
-    // If dateTime is 10 or 13 bits long, it is a timestamp in seconds and milliseconds, or if it is longer than 13 bits, it is in some other time format
+    // If dateTime is 10 or 13 bits long,it is a timestamp in seconds and milliseconds, or if it is longer than 13 bits, it is in some other time format
     if (dateTime.toString().length == 10) {
         dateTime *= 1000
     }
