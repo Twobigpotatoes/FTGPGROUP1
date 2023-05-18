@@ -1,0 +1,16 @@
+{
+  "name": "dapp",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "compile": "truffle compile",
+    "migrate": "truffle migrate"
+  },
+  "keywords": [],
+  "author": "abc",
+  "license": "MIT",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.6.0",
+    "solc": "^0.8.19"
+  }
+}
