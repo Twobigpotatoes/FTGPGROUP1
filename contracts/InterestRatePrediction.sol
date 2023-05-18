@@ -8,7 +8,7 @@ contract InterestRatePrediction {
     uint256 public deadline;
     // Public interest rate hike time stamp
     uint256 public revealRateDate;
-    // total bet amount
+    // total bet Amount
     uint256 public totalAmount;
     // number of winners
     uint256 public winnerCount;
